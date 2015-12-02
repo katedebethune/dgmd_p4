@@ -27,9 +27,12 @@
 * Create a separate document or documents using jQuery UI and demonstrating the requirements below. This can be part of your jQuery Mobile site, or it can stand alone as a separate URL.
 
 - You may combine jQuery Mobile and jQuery UI on the same page. However, as noted in the lecture, this may be buggy, so it is recommended that you have a separate jQuery UI document(s) demonstrating the below features.
+
 - You do not have to create a custom jQuery UI download. You may use the default with all of the options.
-1. Create a custom jQuery UI ThemeRoller theme. This may compliment the jQuery Mobile theme, or it may be totally different.
-2. Include in the page(s) the following. Interaction/widget/effect groups are taken from the jQuery UI website:
+
+- Create a custom jQuery UI ThemeRoller theme. This may compliment the jQuery Mobile theme, or it may be totally different.
+
+- Include in the page(s) the following. Interaction/widget/effect groups are taken from the jQuery UI website:
 - ONE INTERACTION: Draggable, droppable, resizeable, selectable, sortable. You may use more than one interaction in your site.
 - ONE WIDGET. You may NOT use: Buttons (and other form elements listed under Buttons), Datepicker, Tooltip. You may use more than one widget in your site.
 - ONE EFFECT. You may NOT use: Add class, remove class, show, hide. I recommend investigating Toggle but you may choose any of the other remaining effects. You may use more than one effect in your site.
