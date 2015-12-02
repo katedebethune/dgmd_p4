@@ -8,7 +8,9 @@
 
 1. Create the site using jQuery Mobile pages or dialogs.  (Hint: this means there will be one single HTML page, but the navigation will make it seem like 2-3 pages.)
 
+
 2. Use the grid system and make something responsive with custom code (not the built-in breakpoint). Use at least one breakpoint, as defined in a media query. (You may code more if you wish.) This must be applied to at least one of the pages on your site.
+
 
 3. Include at least one button or icon (or both).
 
