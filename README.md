@@ -7,11 +7,17 @@
 * Create a 2-3 page website using jQuery Mobile. Use the jQuery Mobile definition of "page" for the page count, not the number of HTML documents.
 
 1. Create the site using jQuery Mobile pages or dialogs.  (Hint: this means there will be one single HTML page, but the navigation will make it seem like 2-3 pages.)
+
 2. Use the grid system and make something responsive with custom code (not the built-in breakpoint). Use at least one breakpoint, as defined in a media query. (You may code more if you wish.) This must be applied to at least one of the pages on your site.
+
 3. Include at least one button or icon (or both).
+
 4. From the jQuery Mobile demo page (http://demos.jquerymobile.com/1.4.5/), make use of at least 2 items that end in “widget”. Example: listview widget, navbar widget, popup widget, etc. Not all of these were covered in class. You should be able to read the docs and implement these.
+
 5. Create a custom theme for your site using ThemeRoller and make use of it in your site. (You can apply the theme to the whole page or a few elements on your page – your pick.) You should have at least one main theme (i.e. a "c" theme), but if you want to add additional styling elements to more themes (like a "d" or "e" theme), you are welcome to do so.
+
 6. Create a form for your site that contains at least 4 distinct field types. (Example: a group of radio buttons, a text field, a select list, etc.) The form does not have to submit. Use proper HTML5 coding and field types for creating the form, as covered in previous lectures. For at least two of the field types, include a jQuery Mobile modification, as demonstrated in the lecture (horizontal display, mini version, etc) or some other modification you find in the documentation.
+
 7. Apply at least two of the jQuery Mobile touch events to your page(s) to make something happen. jQuery Mobile events are listed at http://api.jquerymobile.com/category/events/ (Links to an external site.) Some were covered in lecture, and you may use these, or you may use other events listed in the docs.
 
 #Part 2: jQuery UI (33% of grade) -- added November 30
