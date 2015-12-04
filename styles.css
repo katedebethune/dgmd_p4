@@ -1,6 +1,8 @@
 @media all and (max-width: 720px) {
-	#suzuki > .ui-block-a,
-	#suzuki > .ui-block-b
+	/* #suzuki .ui-block-a,
+	#suzuki .ui-block-b */
+	#suzuki > main .ui-block-a,
+	#suzuki > main .ui-block-b
 	 {
 		width: 100%;
 	}	
