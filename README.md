@@ -11,7 +11,7 @@
 
 
 2. Use the grid system and make something responsive with custom code (not the built-in breakpoint). Use at least one breakpoint, as defined in a media query. (You may code more if you wish.) This must be applied to at least one of the pages on your site.
-
+	Done: Suzuki page uses ui-grid-a for a 2 col layout; ui-block-a and ui-block-b are used to divide content into two columns; a media query is used at the breakpoint of 720 px to make the two columns of content stack using width: 100%.
 
 3. Include at least one button or icon (or both).
 
