@@ -5,6 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cello Pedagogy</title>
+	<link rel="stylesheet" href="./themes/dgmd_p4.css" />
+	<link rel="stylesheet" href="./themes/jquery.mobile.icons.min.css" />
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <link rel="stylesheet" href="styles.css">
      <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
@@ -12,7 +14,7 @@
 </head>
 <body>
 	<!-- HOME PAGE SECTION -->
-	<section data-role="page" id="home">
+	<section data-role="page" data-theme="c" id="home" >
 		<header>
 			<h1>A Practical Approach to Cello Pedagogy</h1>
 	        	<nav data-role="navbar">
@@ -27,13 +29,17 @@
 			<h1>Welcome!</h1>
 			<p>This website is dedicated to explaining and elucidating how I apply some of the great cello schools and methods in my own teaching.</p>
 			<p>It is, needless to say, an ever-evolving task. Really, the fruit of an endless quest and an insatiable curiosity about helping students to understand and apply the skills and artistry needed to develop as a person, artist, musician, and cellist.</p>
+			<ul data-role="listview">Blah Blah</li>
+				<li>blah 1</li>
+				<li>blah 2</li>
+			</ul>
 		</main>
-		<footer class="ui-bar">
+		<footer class="ui-bar" data-theme="a">
 			<p>Copyright &#169; 2015 Kate de Bethune Cello Studio All Rights Reserved</p>
 		</footer>
 	</section>
 	<!-- SUZUKI SECTION -->
-	<section data-role="page" id="suzuki">
+	<section data-role="page" data-theme="c" id="suzuki">
 		<header>
 			<h1>A Practical Approach to Cello Pedagogy</h1>
 	        	<nav data-role="navbar">
@@ -46,14 +52,15 @@
     	</header>
 		<main>
 			<!-- Start jQuery Mobile grid system tags -->
-			<div class="ui-grid-a ui-body ui-body-a">
+			<!-- <div class="ui-grid-a ui-body ui-body-a" > -->
+			<div class="ui-grid-a ui-body">
 				 <div class="ui-block-a">
 				 	<h1>Suzuki</h1>
 					<p>Suzuki is about as close to a household name as one gets in the world of string teaching and with good reason. The Suzuki method has proven to be an extremely succesful way of nurturing young children through the lens of instrumental music.</p>
 					<p>A cornerstone of the Suzuki is the "mother-tongue" approach. Suzuki intuitively understood that young children could learn to play an instrument in the same way they acquire their native language, through hearing and repetition in the warm, loving environment provided by family.</p>
 					<p>Many of Suzuki's intuitions were correct and have since been validated through more rigorous scientfic studies</p>
 					<p>The usual criticisms of Suzuki include the notion that reading and note recognition are delayed etc. </p>
-					<p>visit the <a href="https://suzukiassociation.org" data-role="button" data-icon="star" target="_blank">Suzuki Association of the Americas</a>for more information</p>
+					<p><a href="https://suzukiassociation.org" data-role="button"  data-theme="c" data-iconpos="top" data-icon="delete" target="_blank">Suzuki Association of the Americas</a>for more information</p>
 					
 				</div><!-- end ui-block a -->
 				<div class="ui-block-b">
@@ -71,7 +78,7 @@
 		</footer>
 	</section>
 	<!-- SASSMANNSHAUS SECTION -->
-	<section data-role="page" id="sassmannshaus">
+	<section data-role="page" data-theme="c" id="sassmannshaus">
 		<header>
 			<h1>A Practical Approach to Cello Pedagogy</h1>
 	        	<nav data-role="navbar">
