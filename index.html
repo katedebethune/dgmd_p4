@@ -9,8 +9,11 @@
 	<link rel="stylesheet" href="./themes/jquery.mobile.icons.min.css" />
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <link rel="stylesheet" href="styles.css">
+     <!--
      <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script> -->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
 	<!-- HOME PAGE SECTION -->
@@ -22,6 +25,7 @@
 	                    <li><a href="#home" class="ui-btn-active">Home</a></li>
 	                    <li><a href="#suzuki">Suzuki</a></li>
 	                    <li><a href="#sassmannshaus">Sassmannshaus</a></li>
+	                    <li><a href="#form">Form</a>
 	                </ul>
 	            </nav>
     	</header>
@@ -29,10 +33,20 @@
 			<h1>Welcome!</h1>
 			<p>This website is dedicated to explaining and elucidating how I apply some of the great cello schools and methods in my own teaching.</p>
 			<p>It is, needless to say, an ever-evolving task. Really, the fruit of an endless quest and an insatiable curiosity about helping students to understand and apply the skills and artistry needed to develop as a person, artist, musician, and cellist.</p>
-			<ul data-role="listview">Blah Blah</li>
+			<ul data-role="listview" data-inset="true">Blah Blah</li>
 				<li>blah 1</li>
 				<li>blah 2</li>
 			</ul>
+
+			<!-- POPUP/TOOLTIP WIDGET -->
+			<div>
+				<p>A paragraph with a tooltip. <a href="#popupInfo" data-rel="popup" data-transition="pop" class="my-tooltip-btn ui-btn ui-alt-icon ui-nodisc-icon ui-btn-inline ui-icon-info ui-btn-icon-notext" title="Learn more">Learn More</a>
+				</p>
+				<div data-role="popup" id="popupInfo" class="ui-content" data-theme="a" style="max-width:350px;">
+					<p>Here is a <strong>tiny popup</strong> being used like a tooltip. The text will wrap to multiple lines as needed</p>
+				</div>
+			</div>
+			
 		</main>
 		<footer class="ui-bar" data-theme="a">
 			<p>Copyright &#169; 2015 Kate de Bethune Cello Studio All Rights Reserved</p>
@@ -47,6 +61,7 @@
 	                    <li><a href="#home" >Home</a></li>
 	                    <li><a href="#suzuki" class="ui-btn-active">Suzuki</a></li>
 	                    <li><a href="#sassmannshaus">Sassmannshaus</a></li>
+	                    <li><a href="#form">Form</a>
 	                </ul>
 	            </nav>
     	</header>
@@ -86,6 +101,7 @@
 	                    <li><a href="#home" >Home</a></li>
 	                    <li><a href="#suzuki" >Suzuki</a></li>
 	                    <li><a href="#sassmannshaus" class="ui-btn-active">Sassmannshaus</a></li>
+	                    <li><a href="#form">Form</a></li>
 	                </ul>
 	            </nav>
     	</header>
@@ -93,6 +109,92 @@
 			<h1>Sassmannshaus</h1>
 			<p>While not a household name (at least in the United States) for string teaching, the Sassmannshaus family has made a tremendous contribution to the field of string pedagogy with their violin, and now, cello method for early learners.</p>
 			<p>Sassmannshaus offers some key differences to Suzuki that I find to be highly complementary, including the introduction of note-reading right away, starting on the cello with third finger, making use of all four strings from the beginning, and excellent excersizes to develop the basic detache stroke and use of the whole bow.</p>
+			
+		</main>
+		<footer class="ui-bar">
+			<p>Copyright &#169; 2015 Kate de Bethune Cello Studio All Rights Reserved</p>
+		</footer>
+	</section>	
+	<!-- FORM SECTION -->
+	<section data-role="page" data-theme="c" id="form">
+		<header>
+			<h1>A Practical Approach to Cello Pedagogy</h1>
+	        	<nav data-role="navbar">
+	                <ul>
+	                    <li><a href="#home" >Home</a></li>
+	                    <li><a href="#suzuki" >Suzuki</a></li>
+	                    <li><a href="#sassmannshaus">Sassmannshaus</a></li>
+	                    <li><a href="#form" class="ui-btn-active">Form</a>
+	                </ul>
+	            </nav>
+    	</header>
+		<main>
+			<h1>Contact us</h1>
+			<form action="#" method="post" id="contact_form">
+					<!-- TEXT INPUT http://demos.jquerymobile.com/1.2.1/docs/forms/textinputs/index.html -->
+					<fieldset>
+						<legend>Contact Information</legend>
+						
+						<div class="ui-field-contain">
+							<label for="name">Name:</label>
+							<input type="text" required name="name" id="name">
+						</div>
+					</fieldset>
+					
+					<!-- RADIO BUTTONS HORIZONTAL http://demos.jquerymobile.com/1.2.1/docs/forms/radiobuttons/ -->
+					<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true" class="ui-field-contain">
+							<legend>Do you want bass or treble clef?</legend>
+							<label for="treble">
+								<input type="radio" name="clef" value="treble" id="treble" >Treble
+							</label>
+							<label for="bass">
+								<input type="radio" name="clef" value="bass" id="bass" >Bass
+							</label>
+							<label for="tenor">
+								<input type="radio" name="clef" value="tenor" id="tenor" >Tenor
+							</label>
+					</fieldset>
+					
+					<!-- RADIO BUTTONS VERTICAL http://demos.jquerymobile.com/1.2.1/docs/forms/radiobuttons/ -->
+					 <fieldset data-role="controlgroup" data-iconpos="right" class="ui-field-contain" data-mini="true">
+		                  <legend>Favorite Instrument:</legend>
+		                  <label for="violin">
+		                        <input type="radio" name="instrument" value="violin" id="violin" > violin
+		                  </label>
+		                  <label for="flute">
+		                        <input type="radio" name="instrument" value="flute" id="flute"> flute
+		                  </label>
+		                  <label for="viola">
+		                        <input type="radio" name="instrument" value="viola" id="viola"> viola
+		                  </label>
+		                  <label for="cello">
+		                        <input type="radio" name="cello" value="cello" id="cello"> cello
+		                  </label>
+		            </fieldset>
+					
+					<!-- SLIDER http://demos.jquerymobile.com/1.2.1/docs/forms/slider/ -->
+					<div data-role="fieldcontain" class="ui-field-contain" data-mini="true">
+						<!-- <fieldset class="ui-field-contain" data-mini="true"> -->
+				            <label for="slider-1">My Slider</label>
+							<input type="range" name="slider-1" id="slider-1" value="60" min="0" max="100" data-highlight="true"/>
+						<!-- </fieldset> -->
+					</div>
+					<!-- CHECKBOX http://demos.jquerymobile.com/1.2.1/docs/forms/checkboxes/ -->
+					<div data-role="fieldcontain" >
+					    <fieldset data-role="controlgroup" data-mini="true" data-type="horizontal">
+						   <legend>Agree to the terms:</legend>
+						   
+						   <input type="checkbox" name="checkbox-2" id="checkbox-2" class="custom" />
+						   <label for="checkbox-2">I agree</label>
+						   
+					    </fieldset>
+					</div>
+					<button name="submit" type="submit" class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-heart ui-btn-inline">Submit</button>
+				</form>
+
+
+				
+			
 		</main>
 		<footer class="ui-bar">
 			<p>Copyright &#169; 2015 Kate de Bethune Cello Studio All Rights Reserved</p>
