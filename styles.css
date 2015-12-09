@@ -15,6 +15,33 @@
 main {
 	padding: 10px;
 }
+
+#suzswipe {
+	
+}
+
+/* left swipe */
+.one {
+	color: red;
+}
+/* right swipe */
+.two {
+	color: blue;
+}
+/* vertical orientation */
+.three {
+	font-weight: bold;
+}
+/* horizontal orientation */
+.four {
+	text-decoration: underline;
+}
+/* taphold */
+.five {
+	background-color: magenta;
+}
+
+
 /*
 @media all and (min-width: 721px) {
   nav {
