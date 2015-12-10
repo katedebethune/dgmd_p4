@@ -13,9 +13,9 @@ $(document).ready(function(){
 
 	$(window).on('orientationchange', function(){
 		if(window.orientation == 0) {
-			$('#suzswipe').removeClass().addClass('three');
+			$('#suzswipe').removeClass().html('This must be vertical orientation!').addClass('four');
 		} else {
-			$('#suzswipe').removeClass().addClass('four');
+			$('#suzswipe').removeClass().html('This is horizontal orientation!').addClass('five');
 		}
 	}); //end orientationchange
 

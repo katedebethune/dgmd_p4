@@ -33,17 +33,18 @@ main {
 .two {
 	background-image: url(http://lorempixel.com/300/200/sports/1);
 }
-/* vertical orientation */
+/* taphold */
+/* something techie */
 .three {
 	background-image: url(http://lorempixel.com/300/200/technics/1);
 }
 /* horizontal orientation */
 .four {
-	text-decoration: underline;
+	background-image: url(http://lorempixel.com/300/200/nature/1);
 }
-/* taphold */
+/* vertical orientation */
 .five {
-	background-color: magenta;
+	background-image: url(http://lorempixel.com/300/200/people/1);
 }
 
 
