@@ -17,20 +17,25 @@ main {
 }
 
 #suzswipe {
-	
+	width: 300px;
+	height: 200px;
+	border: black 1px solid;
+	background-repeat: no-repeat;
 }
 
 /* left swipe */
+/* food image */
 .one {
-	color: red;
+	background-image: url(http://lorempixel.com/300/200/food/1);
 }
 /* right swipe */
+/* sports */
 .two {
-	color: blue;
+	background-image: url(http://lorempixel.com/300/200/sports/1);
 }
 /* vertical orientation */
 .three {
-	font-weight: bold;
+	background-image: url(http://lorempixel.com/300/200/technics/1);
 }
 /* horizontal orientation */
 .four {
