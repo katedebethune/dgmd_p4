@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="p4_ui.css">
+  
+  <style>
+ 
+   .note {
+          background: red;
+          border: 1px solid #000;
+          background-image: url(a_note.png);
+          width: 170px; height: 230px;
+          background-repeat: no-repeat; 
+    }
+
+   .answer { 
+      background: green;
+       border: 1px solid #000;
+       background-image: url(a_answer.png);
+       width: 170px; height: 230px;
+       background-repeat: no-repeat; 
+   } 
+
+  </style>
+  <script>
+  
+  $(function() {
+    $( "#draggable" ).draggable();
+    $( "#tabs" ).tabs();
+
+    $('#toggleAnswer').click(function(){
+               $(".note").switchClass("note","answer");
+               $(".answer").switchClass("answer","note");
+               return false;
+            });
+
+    });
+  </script>
+
+  
+</head>
+<body>
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Note Test</a></li>
+    <li><a href="#tabs-2">Great Cello Makers</a></li>
+    <li><a href="#tabs-3">Famous Cellists</a></li>
+  </ul>
+  <div id="tabs-1">
+     <div id="draggable" class="note ui-widget-content">
+    <input type="button" id="toggleAnswer" value="Click me" />
+
+ </div>
+    <p>Do you know how to play this note on the cello? Click on the button to test your knowledge. You can also drag the note all around the page.</p>
+  </div>
+  <div id="tabs-2">
+    <ul>
+      <li>Stradivarius</li>
+      <li>Montagnana</li>
+      <li>Techhler</li>
+      <li>Goffriller</li>
+    </ul>
+  </div>
+  <div id="tabs-3">
+    <ul>
+      <li>Yo-yo Ma</li>
+      <li>Jacqueline de Pre</li>
+      <li>Mstislav Rostropovich</li>
+      <li>Pablo Casals</li>
+    </ul>
+  </div>
+</div>
+
+
+ 
+ 
+</body>
+</html>
