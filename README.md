@@ -2,6 +2,30 @@
 * Kate de Bethune
 * December 2, 2015
 
+* My week 12-13 jQuery Mobile assignment is located at this/these URL(s): http://dgmd_p4.kdeb-csci-e15.me/
+1. Grid system is located on this/these page(s): http://dgmd_p4.kdeb-csci-e15.me/#suzuki lines 71 - 91, media query is here: styles.css lines 1 - 9.
+
+2. Button and/or icon is located here: http://dgmd_p4.kdeb-csci-e15.me/#suzuki lines 80 - 81
+
+3. My two widgets are: LISTVIEW and POPUP/TOOLTIP and they are located on these pages: http://dgmd_p4.kdeb-csci-e15.me/ lines 37 & 43 
+
+4. My custom theme is applied on this page: /index.html, line number 8.
+
+5. The form is located here: http://dgmd_p4.kdeb-csci-e15.me/#form and the mobile modifications I used are RADIO BUTTON HORIZONTAL and SLIDER. HTML line numbers: line 147 & 178
+
+6. The jQuery Mobile events I used on my site include: swipeleft, swiperight, taphold, vertical & horizontal orientation changes all implemented using lorempixel placeholder images. They are located here: http://dgmd_p4.kdeb-csci-e15.me/#suzuki line 78, CSS: styles.css lines 19 - 48, JS: p4.js lines 1 - 22.
+
+7. My week 14 jQuery UI assignment is located at this/these URL(s): http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html
+
+8. My custom theme is applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s): 9 (it is the so-called "swanky purse" pre-canned theme)
+
+9. My interaction is: DRAGGABLE applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s) HTML: line 55, JS: line 33.
+
+10. My widget is TABS applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s) HTML: lines 48 - 77 JS: line 34
+
+11. My effect is TOGGLE applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s) HTML: line 56 JS: lines 36 - 40
+
+
 # Part 1: jQuery Mobile (67% of grade)
 
 * Create a 2-3 page website using jQuery Mobile. Use the jQuery Mobile definition of "page" for the page count, not the number of HTML documents.
@@ -54,26 +78,5 @@ Use the commenting feature for your assignment, or create a text file.
 
 In the text file/comment, please complete the following:
 
-* My week 12-13 jQuery Mobile assignment is located at this/these URL(s): http://dgmd_p4.kdeb-csci-e15.me/
-1. Grid system is located on this/these page(s): http://dgmd_p4.kdeb-csci-e15.me/#suzuki lines 71 - 91, media query is here: styles.css lines 1 - 9.
 
-2. Button and/or icon is located here: http://dgmd_p4.kdeb-csci-e15.me/#suzuki lines 80 - 81
-
-3. My two widgets are: LISTVIEW and POPUP/TOOLTIP and they are located on these pages: http://dgmd_p4.kdeb-csci-e15.me/ lines 37 & 43 
-
-4. My custom theme is applied on this page: /index.html, line number 8.
-
-5. The form is located here: http://dgmd_p4.kdeb-csci-e15.me/#form and the mobile modifications I used are RADIO BUTTON HORIZONTAL and SLIDER HTML line numbers: line 147 & 178
-
-6. The jQuery Mobile events I used on my site include: swipeleft, swiperight, taphold, vertical & horizontal orientation changes all implemented using lorempixel placeholder images. They are located here: http://dgmd_p4.kdeb-csci-e15.me/#suzuki line 78, CSS: styles.css lines 19 - 48, JS: p4.js lines 1 - 22.
-
-7. My week 14 jQuery UI assignment is located at this/these URL(s): http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html
-
-8. My custom theme is applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s): 9 (it is the so-called "swanky purse" pre-canned theme)
-
-9. My interaction is: DRAGGABLE applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s) HTML: line 55, JS: line 33.
-
-10. My widget is TABS applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s) HTML: lines 48 - 77 JS: line 34
-
-11. My effect is TOGGLE applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s) HTML: line 56 JS: lines 36 - 40
 
