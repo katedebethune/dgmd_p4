@@ -65,11 +65,11 @@ In the text file/comment, please complete the following:
 
 5. The form is located here: http://dgmd_p4.kdeb-csci-e15.me/#form and the mobile modifications I used are RADIO BUTTON HORIZONTAL and SLIDER HTML line numbers: line 147 & 178
 
-6. The jQuery Mobile events I used on my site include: swipeleft, swiperight, taphold, vertical & horizontal orientation changes all implemented using lorempixel placeholder images. They are located here: http://dgmd_p4.kdeb-csci-e15.me/#suzuki line 78, also css: styles.css lines 19 - 48
+6. The jQuery Mobile events I used on my site include: swipeleft, swiperight, taphold, vertical & horizontal orientation changes all implemented using lorempixel placeholder images. They are located here: http://dgmd_p4.kdeb-csci-e15.me/#suzuki line 78, CSS: styles.css lines 19 - 48, JS: p4.js lines 1 - 22.
 
 7. My week 14 jQuery UI assignment is located at this/these URL(s): http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html
 
-8. My custom theme is applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s): 9. 
+8. My custom theme is applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s): 9 (it is the so-called "swanky purse" pre-canned theme)
 
 9. My interaction is: DRAGGABLE applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s) HTML: line 55, JS: line 33.
 
@@ -77,5 +77,3 @@ In the text file/comment, please complete the following:
 
 11. My effect is TOGGLE applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s) HTML: line 56 JS: lines 36 - 40
 
-
-- URL specified above means the EXACT URL where this is located. Do not give me the home page URL unless that’s where the effect is located. Provide the URL to the about page if that’s where the effect is located.
