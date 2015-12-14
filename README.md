@@ -25,6 +25,7 @@
 	DONE: #form area of page. The following controls are used: TEXT INPUT, RADIO BUTTON HORIZ, RADIO BUTTON VERT,SLIDER, CHECKBOX
 
 7. Apply at least two of the jQuery Mobile touch events to your page(s) to make something happen. jQuery Mobile events are listed at http://api.jquerymobile.com/category/events/ (Links to an external site.) Some were covered in lecture, and you may use these, or you may use other events listed in the docs.
+	DONE: swipeleft, swiperight, taphold, vertical & horizontal orientation changes all implemented using lorempixel placeholder images. 
 
 #Part 2: jQuery UI (33% of grade) -- added November 30
 
@@ -38,8 +39,11 @@
 
 - Include in the page(s) the following. Interaction/widget/effect groups are taken from the jQuery UI website:
 - ONE INTERACTION: Draggable, droppable, resizeable, selectable, sortable. You may use more than one interaction in your site.
+	DONE: draggable
 - ONE WIDGET. You may NOT use: Buttons (and other form elements listed under Buttons), Datepicker, Tooltip. You may use more than one widget in your site.
+	DONE: Tabs
 - ONE EFFECT. You may NOT use: Add class, remove class, show, hide. I recommend investigating Toggle but you may choose any of the other remaining effects. You may use more than one effect in your site.
+	DONE: toggle
 - FOR EACH INTERACTION/WIDGET/EFFECT: you will create something new, not demonstrated on the demo page. I want you to do what I did in the video. Using the tooltip, I combined "custom animation" with "track the mouse". It looked ugly, but it was not code that I copied and pasted in whole from the website either. I am looking for a demonstration of understanding that you can read the documentation and write good quality jQuery to form your own interactions/widgets/effects on your site. You should combine at least two aspects in each example. You are welcome to combine more.
 NO CREDIT GIVEN FOR: Copying/pasting the examples into your work without manipulation, or with only CSS manipulation. Watching the lynda.com videos and using their examples in your homework.
 
@@ -50,17 +54,28 @@ Use the commenting feature for your assignment, or create a text file.
 
 In the text file/comment, please complete the following:
 
-* My week 12-13 jQuery Mobile assignment is located at this/these URL(s): ____
-1. Grid system is located on this/these page(s): ____
-2. Button and/or icon is located here: ___
-3. My two widgets are ___ and ___ and they are located on these pages: ___
-4. My custom theme is applied on this page ___ line number ___ 
-5. The form is located here: ____ and the modifications I used are ___ and ___ HTML line numbers ____
-6. The jQuery Mobile events I used on my site include: ____ They are located here: ____
-7. My week 14 jQuery UI assignment is located at this/these URL(s): ____
-8. My custom theme is applied on this page ___ line number(s) ___ 
-9. My interaction is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
-10. My widget is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
-11. My effect is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
+* My week 12-13 jQuery Mobile assignment is located at this/these URL(s): http://dgmd_p4.kdeb-csci-e15.me/
+1. Grid system is located on this/these page(s): http://dgmd_p4.kdeb-csci-e15.me/#suzuki lines 71 - 91, media query is here: styles.css lines 1 - 9.
+
+2. Button and/or icon is located here: http://dgmd_p4.kdeb-csci-e15.me/#suzuki lines 80 - 81
+
+3. My two widgets are: LISTVIEW and POPUP/TOOLTIP and they are located on these pages: http://dgmd_p4.kdeb-csci-e15.me/ lines 37 & 43 
+
+4. My custom theme is applied on this page: /index.html, line number 8.
+
+5. The form is located here: http://dgmd_p4.kdeb-csci-e15.me/#form and the mobile modifications I used are RADIO BUTTON HORIZONTAL and SLIDER HTML line numbers: line 147 & 178
+
+6. The jQuery Mobile events I used on my site include: swipeleft, swiperight, taphold, vertical & horizontal orientation changes all implemented using lorempixel placeholder images. They are located here: http://dgmd_p4.kdeb-csci-e15.me/#suzuki line 78, also css: styles.css lines 19 - 48
+
+7. My week 14 jQuery UI assignment is located at this/these URL(s): http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html
+
+8. My custom theme is applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s): 9. 
+
+9. My interaction is: DRAGGABLE applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s) HTML: line 55, JS: line 33.
+
+10. My widget is TABS applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s) HTML: lines 48 - 77 JS: line 34
+
+11. My effect is TOGGLE applied on this page http://dgmd_p4.kdeb-csci-e15.me/jquery_ui/index.html line number(s) HTML: line 56 JS: lines 36 - 40
+
 
 - URL specified above means the EXACT URL where this is located. Do not give me the home page URL unless that’s where the effect is located. Provide the URL to the about page if that’s where the effect is located.
